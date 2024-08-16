@@ -111,6 +111,10 @@ header {
   cursor: pointer;
 }
 
+.hero-left button:hover {
+  background-color: #090909;
+}
+
 .arrow-down {
   width: 1rem;
   height: 5rem;
@@ -324,12 +328,6 @@ header {
   font-weight: 700;
 }
 
-.active-dot {
-  width: 7px;
-  height: 7px;
-  background-color: #121111;
-}
-
 .dots {
   display: flex;
   column-gap: 2rem;
@@ -337,11 +335,31 @@ header {
   padding-top: 6.6rem;
 }
 
+.active-dot {
+  width: 7px;
+  height: 7px;
+  background-color: #121111;
+  cursor: pointer;
+}
+
+.active-dot:hover {
+  width: 10px;
+  height: 10px;
+  background-color: #33d41a;
+}
+
 .dot {
   width: 7px;
   height: 7px;
   background-color: #b2afaf;
   color: #6b6b6b;
+  cursor: pointer;
+}
+
+.dot:hover {
+  width: 10px;
+  height: 10px;
+  background-color: #33d41a;
 }
 
 .partners-section-5 {
